@@ -17,7 +17,7 @@ const Header = () => {
             <NavLink to="/posts" activeClassName="is-active" className="navbar-item">Posts</NavLink>
             <NavLink to="/projects" activeClassName="is-active" className="navbar-item">Projects</NavLink>
             <NavLink to="/about" activeClassName="is-active" className="navbar-item">About</NavLink>
-            <NavLink to="/counter" activeClassName="is-active" className="navbar-item">Counter App</NavLink>
+            {/*<NavLink to="/counter" activeClassName="is-active" className="navbar-item">Counter App</NavLink>*/}
             <a className="navbar-item" href="https://github.com/ramet-top" target="_blank">GitHub
               <i className="fab fa-github"/>
             </a>
